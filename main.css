@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.leftImage {
+			float: left;
+			border: medium double green;
+			margin: 15px;
+			width: 200;
+			height: auto;
+		}
