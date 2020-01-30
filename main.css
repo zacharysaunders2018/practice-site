@@ -8,3 +8,11 @@
 			width: 200;
 			height: auto;
 		}
+
+.rightImage {
+			float: right;
+			border: medium double green;
+			margin: 15px;
+			width: 200;
+			height: auto;
+		}
