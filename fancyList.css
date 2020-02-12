@@ -1,0 +1,25 @@
+body {
+    background-color: cadetblue;
+    color: antiquewhite;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    color: aqua;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+ol.roman {
+    list-style-type: upper-roman;
+    color: inherit;
+}
+
+ul.star {
+    list-style-image: url("/images2/bullets/yellow-star-animated.gif");
+}
