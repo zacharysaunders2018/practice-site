@@ -1,0 +1,59 @@
+body {
+    background-color: beige;
+    color: cadetblue;
+    font-family: "Gill Sans MT", "Myriad Pro", "Ubuntu", Arial, sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    background-color: aliceblue;
+    font-size: 36px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", Serif;
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h2 {
+    background-color: aliceblue;
+    font-size: 24px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", Serif;
+    color: coral;
+    text-align: center;
+}
+
+a {
+    color: azure;
+    background-color: cadetblue;
+    border: medium double aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+img.floatLeft {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: medium double cadetblue;
+}
+
+img.floatRight {
+    float: right;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: medium double cadetblue;
+}
+ol {
+    list-style-type: upper-alpha;
+}
+
+ul {
+    list-style-image: url("images2/bullets/greenbullet.gif");
+}
