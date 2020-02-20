@@ -1,40 +1,65 @@
 @charset "utf-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono&display=swap');
+
+body {
+    background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 #wrapper {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	color: #040305;
-	border: solid medium #361DCC;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: #040305;
+    border: solid thin #361DCC;
+    padding: 5px;
 }
 
 #heading {
-	width: 950px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 36px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	color: inherit;
+    width: 950px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 36px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    color: inherit;
 }
 
 #links {
-	border: solid medium #361DCC;
-	width: 950px;
-	margin-left: auto;
-	margin-right: auto;
-	font-size 16px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	background-color: ivory;
+    border: solid thin #361DCC;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-size 16px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    background-color: #361DCC;
+    color: ivory;
 }
 
 #body {
-	width: 700px;
-	float: left;
-	background-color: azure;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	font-size: 16px;
+    width: 705px;
+    float: left;
+    background-color: azure;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-size: 16px;
+    border: solid thin #040305;
+}
+
+#news {
+    width: 250px;
+    float: right;
+    border: solid thin #361DCC;
+    background-color: coral;
+    font-size: 12px;
+    font-family: Ubuntu, "Roboto Light", Monsterrat, Verdana, SansSerif;
+}
+
+.clear {
+    clear: both;
+    overflow: visible;
 }
