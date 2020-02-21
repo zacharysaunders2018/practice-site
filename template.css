@@ -3,14 +3,26 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto|Ubuntu|Ubuntu+Condensed|Ubuntu+Mono&display=swap');
 
+:root {
+    --serif-fonts: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
 body {
-    background-image: url("background.jpg");
+background-image: url("background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
+h2 {
+    font-family: var(--serif-fonts);
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
 #wrapper {
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family: var(--serif-fonts);
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -22,12 +34,13 @@ body {
 
 #heading {
     width: 950px;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family: var(--serif-fonts);
     font-size: 36px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     color: inherit;
+    text-align: center;
 }
 
 #links {
@@ -36,16 +49,17 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size 16px;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family: var(--serif-fonts);
     background-color: #361DCC;
     color: ivory;
+
 }
 
 #body {
     width: 705px;
     float: left;
     background-color: azure;
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    font-family: Ubuntu, "Roboto Light", Monsterrat, Verdana, SansSerif;
     font-size: 16px;
     border: solid thin #040305;
 }
@@ -56,7 +70,7 @@ body {
     border: solid thin #361DCC;
     background-color: coral;
     font-size: 12px;
-    font-family: Ubuntu, "Roboto Light", Monsterrat, Verdana, SansSerif;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 }
 
 .clear {
