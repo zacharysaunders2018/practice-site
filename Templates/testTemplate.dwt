@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../template.css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="heading">
+			<p>Zach Saunders</p>
+		</div>
+		<div id="links">
+			<p>Home</p>
+			
+		</div>
+		
+		<div id="body">
+			<h2>This is a test</h2>
+			<p>Test Test Test</p>
+		</div>
+		<div id="news">
+			<h3 style="text-align: center">News</h3>
+			<hr style="padding-top: 0px; margin-top: -1em;">
+			<p>Important Breaking News!! Important Breaking News!! Important Breaking News!!</p>
+		</div>
+		<div class="clear"></div>
+		
+	</div>
+</body>
+</html>
