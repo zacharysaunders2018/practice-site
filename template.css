@@ -89,4 +89,5 @@ a {
 	all: inherit;
 	display: inline;
 	text-decoration: underline;
+	cursor: pointer;
 }
