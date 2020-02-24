@@ -77,3 +77,16 @@ h2 {
     clear: both;
     overflow: visible;
 }
+
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0
+}
+
+a {
+	all: inherit;
+	display: inline;
+	text-decoration: underline;
+}
